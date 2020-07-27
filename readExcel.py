@@ -9,7 +9,7 @@ ws1.title = "range names"  # 第一个表命名
 for row in range(1, 40):
     ws1.append(range(60))
 ws2 = wb.create_sheet(title="Pi")
-ws2['F5'] = 3.14
+ws2['F5'] = 3.14eeee
 ws3 = wb.create_sheet(title="Data")
 for row in range(10, 20):
     for col in range(27, 54):
